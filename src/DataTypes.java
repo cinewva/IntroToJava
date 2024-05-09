@@ -1,26 +1,28 @@
 public class DataTypes {
     public static void main(String[] args) {
-        // cele mai folosite 5 tipuri de date
+        // The most commonly used 5 data types
 
-        // string sir de caractere delimitate de ghilomele duble
-        String marca = "Dacia";
+        // string: a sequence of characters delimited by double quotes
+        String brand = "Dacia";
         String model = "1310";
-        System.out.println(marca.length());
-        System.out.println(marca.toUpperCase());
+        System.out.println("this is the lenth of the brand: " + brand.length());
+        System.out.println("this is the brand to upper case: " + brand.toUpperCase());
 
-       // integer = numar intreg, (int)
-        int an_fabricatie = 1987;
+        // integer = whole number, (int)
+        int manufactureYear = 1987;
+        System.out.println("this is an int: " + manufactureYear);
 
-        // double = numar zecimal
-        double pret = 2300.50;
+        // double = decimal number
+        double price = 2300.50;
+        System.out.println("this is a double: " + price);
 
-        // boolean este adevarat sau fals
-        boolean inmatriculata = false;
+        // boolean represents true or false
+        boolean registered = false;
+        System.out.println("this is a boolean: " + registered);
 
         // char
-        char nota = 'A';
-
+        char mark = 'A';
+        System.out.println("this is a character: " + mark);
 
     }
 }
-

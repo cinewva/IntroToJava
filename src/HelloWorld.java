@@ -1,16 +1,14 @@
-public class HelloWorld {  // clasa incepe
-    public static void main(String[] args) { //functia main incepe
-        // de aici incepe java sa caute cod
+public class HelloWorld {  // class begins
+    public static void main(String[] args) { // main function begins
+        // Java starts searching for code from here
         System.out.println("Hello World!");
 
-    } //functia main se termina
+    } // main function ends
 
+} // class ends
 
-} // clasa se termina
-
-
-//comment
+//comment on one line
 
 /* comment
-pe mai multe linii
+on multiple lines
  */

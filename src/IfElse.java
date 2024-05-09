@@ -1,25 +1,20 @@
-public class IfElse {
-    /*
-     Flow control - if else
-        evaludeaza conditii si bifurca codul in functie de rezultat
-     */
+public class IfElse { /* Flow control - if else evaluates conditions and forks code based on the result */
     public static void main(String[] args) {
-        System.out.println("pornim radio");
-        // daca im im place piesa dau mai tare
-        boolean piesa_faina = false; // ii zic la calc daca piesa e faina
+        System.out.println("turn on the radio");
+        // if I like the song, I play lowder
+        boolean piesa_faina = false; // I tell the computer if the music is nice
         if (piesa_faina == true) {
-            System.out.println("dau mai taren radioul");
-            System.out.println("incep sa fredonez");
+            System.out.println("turn up the radio");
+            System.out.println("start humming along");
         }
+        System.out.println("turn off the radio");
 
-        System.out.println("oprim radio");
-
-            //if else
-            int nr = 3;
-            if (nr % 2 == 0){
-                System.out.println("par");
-            } else {
-                System.out.println("impar");
-            }
+        // if else checks if a number is even or odd
+        int nr = 3;
+        if (nr % 2 == 0){
+            System.out.println(nr + " is even");
+        } else {
+            System.out.println(nr + " is odd");
+        }
     }
 }
